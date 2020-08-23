@@ -1,0 +1,20 @@
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .col-md {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 400px;
+        height: 400px;
+        padding: 0 10px;
+        border-radius: 15px;
+        margin-bottom: 3em;
+        border: none;
+        box-shadow: darken($color: #000000, $amount: 0);
+    }

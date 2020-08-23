@@ -1,0 +1,17 @@
+nav {
+    background: getColour(cream);
+    a {
+        color: getColour(dark-gray);
+        text-decoration: none;
+    }
+    a.active {
+        color: getColour(pink);
+    }
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    li {
+        margin-left: 1em;
+    }
+}

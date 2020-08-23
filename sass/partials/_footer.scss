@@ -1,0 +1,9 @@
+footer {
+    background: getColour(cream);
+    color: #8d8d8d;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    .container {
+        @extend .container-flex;
+    }
+}

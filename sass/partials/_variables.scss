@@ -1,0 +1,8 @@
+$font-primary: "open sans",
+sans-serif;
+$font-headings: "archivo narrow",
+sans-serif;
+$colours: ( white: #FFFFFF, dark-gray: #6A6A6A, medium-gray: #8D8D8D, light-gray: #E5E5E5, pink: #C32C72, cream: #F4F3EE, );
+@function getColour($colour) {
+    @return map-get($colours, $colour)
+}
